@@ -20,5 +20,15 @@ console.log(boolean)
 let und = arr.filter(item => typeof item === "undefined")
 console.log(und)
 
+ obj = arr.filter(item => typeof item === "null")
+console.log(obj)
+
 // Задание 2 
 
+let arr2_nd = [1,2,3,4,5,6,7,8,9];
+arr2_nd.filter(Number);
+if (arr2_nd.length > 5){
+    alert("GOOD")
+} else{
+    alert("Bad")
+}
